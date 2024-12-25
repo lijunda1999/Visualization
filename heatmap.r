@@ -1,3 +1,5 @@
+setwd("E:/Git/repository/visualization")
+
 library(pheatmap)
 
 data <- read.csv("CAZy.csv", header=T, row.names=1)
