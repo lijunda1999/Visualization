@@ -3,8 +3,8 @@ library(openxlsx)
 library(ggpubr)
 
 # 加载数据
-midu2 <- read.xlsx('核苷酸read2-散点图.xlsx', sheet = 1)
-midu <- read.xlsx('核苷酸read-散点图.xlsx', sheet = 1)
+midu2 <- openxlsx::read.xlsx('核苷酸read2-散点图.xlsx', sheet = 1)
+midu <- openxlsx::read.xlsx('核苷酸read-散点图.xlsx', sheet = 1)
 
 # 基础主题
 base_theme <- theme(
